@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>volunteer!</title>
+    <link rel="stylesheet" href="volunteer.css">
+
+</head>
+<!-- <div class="logo"><img  class="patch" src="PhotoRoom-20230708_004616 (1).png"></div> -->
+
+<div class="nav-bar">
+    <div class="logo"><img class="patch" src="PhotoRoom-20230708_004616 (1).png"><span id="reach">Reaching Hands</span>
+    </div>
+    <div id="instacon"></div> <img id="instim" src="icons8-instagram-50.png">
+    <div id="facecon"></div> <img id="faceim" src="icons8-facebook-50.png">
+    <div id="twicon"></div> <img id="twiim" src="icons8-twitter-50.png">
+    <div id="lincon"></div> <img id="linim" src="icons8-youtube-50.png">
+</div>
+
+
+<!-- <div id="head"><h1><div id="wordsh">Are You Ready To Give Them The</div> <span id="word">Smile</span><br><span id="words"> They Deserve</span></h1></div>
+    <div class="right"></div>  -->
+<!-- <h1>Are You Ready To Give Them The Smile<br>They Deserve</h1> -->
+<div id="head">
+    <h1><span id="word">Your Love, There Need</span><br><span id="words">Volunteer</span></h1>
+</div>
+<div class="right">
+    <!-- <div class="whole">  <h1> Reach Out! <br>
+            And Help With Necessities!</h1> -->
+    <br><br>
+    <form><div class="shadow">
+        <div class="one">
+            <div> <!-- this div is the direct child of div clss one for applying flex box -->
+                <div class="margin"> <!--for first 2 horizontal boxes labels -->
+                    <label for="name">Name</label>
+                </div>
+                <br>
+                <input type="text" name="name" placeholder="Enter Your Name" required>
+                <br>
+            </div>
+
+            <div><!-- this div is the direct child of div clss one for applying flex box -->
+                <div class="margin"> <!--for first 2 horizontal boxes labels -->
+                    <label for="age">Age</label>
+                </div>
+                <br>
+                <input type="number" min="16" name="age" placeholder="Enter Your Age" required>
+                <br>
+            </div>
+        </div>
+        <div class="one">
+            <div><!-- this div is the direct child of div clss one for applying flex box -->
+                <div class="margin margin1"><!--for second 2 horizontal boxes labels -->
+                    <label for="email"> Email</lable>
+                </div>
+                <br>
+                <input type="email" name="email" placeholder="abc11@gmail.com" required>
+                <br>
+            </div>
+            <div><!-- this div is the direct child of div clss one for applying flex box -->
+                <div class="margin margin1"><!--for second 2 horizontal boxes labels -->
+                    <label for="contact">Contact</lable>
+                </div>
+                <br>
+                <input type="tel" name="contact" placeholder="123-4567-890" required>
+            </div>
+        </div>
+        <!-- <h4>Address</h4>
+            <label for="city">City</lable> -->
+        <!-- <br>
+            <select required>
+                <option value="Enter Your City">Enter Your City</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Noida">Noida</option>
+                <option value="Gurugram">Gurugram</option>
+                <option value="Ghaziabad">Ghaziabad</option>
+            </select>
+            <br>
+            <label for="area">Area</lable>
+            <br>
+            <input type="text" name="address" placeholder="Area,Street,Sector,Village" required>
+            <br> -->
+        <div class="one">
+            <div><!-- this div is the direct child of div clss one for applying flex box -->
+                <div class="margin" id="addressmargin">
+                    <label for="address">Address</label>
+                    <br>
+                </div>
+
+                <input id="addressid" type="text" name="address" placeholder="Enter Your Address" required>
+                <br>
+            </div>
+            <div>
+                <!-- this div is the direct child of div clss one for applying flex box -->
+
+                <div id="region"> <br><label id="regionlabel" for="region">Region</label></div>
+                <br>
+                <select id="regionselect" required>
+
+                    <option class="regionoption" value="Money">North Delhi</option>
+                    <option class="regionoption" value="Clothes">East Delhi</option>
+                    <option class="regionoption" value="Food">West Delhi</option>
+                    <option class="regionoption" value="Books">South Delhi</option>
+
+                </select><br>
+                <div id="donatediv"><label id="donatelabel" for="city">What Do You Want To Help With?</label></div>
+                <br>
+                <select id="donation" required>
+                    <option value="Money">Money</option>
+                    <option value="Clothes">Clothes</option>
+                    <option value="Food">Food</option>
+                    <option value="Books">Books</option>
+                    <option value="Sanitation">Sanitation</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+            <br>
+        </div>
+
+
+        <div class="ngo"></div>
+        <div class="wrapper">
+            <div class="select-btn">
+                <span>Select Where To Donate</span>
+                <i class="uil uil-angle-down"></i>
+            </div>
+            <div class="content">
+                <div class="search">
+                    <i class="uil uil-search">
+
+                    </i>
+                    <input spellcheck="false" type="text" placeholder="Search">
+                </div>
+                <ul class="options"></ul>
+            </div>
+        </div>
+        <input id="sub" type="submit">
+</div>
+
+</div>
+
+</form>
+<script src="volunteer.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</body>
+
+</html>
